@@ -23,6 +23,10 @@ function App() {
     setTasks((prevTasks) => prevTasks.concat(task));
   };
 
+  const clearTasks = () => {
+    
+  }
+
   return (
     <React.Fragment>
       <NewTask onAddTask={taskAddHandler} />
@@ -31,6 +35,7 @@ function App() {
         loading={isLoading}
         error={error}
         onFetch={fetchTasks}
+        remove = {clearTasks}
       />
     </React.Fragment>
   );

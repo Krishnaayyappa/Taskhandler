@@ -8,3 +8,22 @@
 .task:last-of-type {
   border-bottom: none;
 }
+
+li{
+  display: inline-block;
+}
+
+.clear{
+  float:right;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: small;
+  background-color: #7a0144;
+  border: 1px solid #7a0144;
+  border-radius: 10px;
+  padding: 0.2rem 1rem;
+  color: white;
+}
+
+
+
