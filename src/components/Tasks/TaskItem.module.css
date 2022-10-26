@@ -25,5 +25,12 @@ li{
   color: white;
 }
 
+p{
+  font-style: italic;
+  font-size: small;
+  font-weight: lighter;
+  color: red;
+}
+
 
 
