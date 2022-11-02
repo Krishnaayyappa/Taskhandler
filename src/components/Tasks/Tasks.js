@@ -14,8 +14,8 @@ const Tasks = (props) => {
     props.onDeleteTask(id);
   }
   const clearTasks = (id) => {
-    deleteTask({url:`https://http-react-33a71-default-rtdb.firebaseio.com/tasks.json/${id}/text`,
-    method:"delete"}, deleteHandler.bind(id))
+    deleteTask({url:`https://http-react-33a71-default-rtdb.firebaseio.com/tasks/${id}.json`,
+    method:"delete"}, deleteHandler.bind(null,id))
   }
 
   if (props.items.length > 0) {
